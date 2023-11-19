@@ -1,0 +1,5 @@
+help from chat gbt for the following: 
+
+**Question:** How well does the logistic regression model, fit with oversampled data, predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
+
+**Answer:** For Class 0 because the Precision is .99 that means 99% predicted loans are healthy. The recall being 0.99 means that the model correctly predicts 99% of the predicted healthy loans. Overall this indictates that for predicting a healthy loan is highly likely using this model. For Class 1 the precision is 0.99 which means that the model is able to predict 99% of the predicted high-risk loans that are actually high-risk. The recall being 0.99 means that the model is able to predict 99% of the actual high-risk loans. 
